@@ -1,0 +1,14 @@
+Next steps:
+  mkdir systemyOperacyjne
+  cd systemyOperacyjne
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:marpiech/systemyOperacyjne.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:marpiech/systemyOperacyjne.git
+  git push -u origin master
