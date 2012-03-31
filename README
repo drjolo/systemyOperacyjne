@@ -12,3 +12,13 @@ Existing Git Repo?
   cd existing_git_repo
   git remote add origin git@github.com:marpiech/systemyOperacyjne.git
   git push -u origin master
+
+Potok
+// implementacja potoku to program pipa
+pipa urcuhamia pipeOut i przekazuje output do tr
+pipeOut czyta wiersze pliku data.txt
+tr zamienia male litery na duze
+
+cd unnamedPipe
+gcc pipeOut.cpp -o pipeOut -lstdc++; gcc pipa.cpp -o pipa -lstdc++;  ./pipa
+
